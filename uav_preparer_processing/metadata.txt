@@ -3,22 +3,22 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=UAV Preparer
+name=UAV Preparer for Processing
 qgisMinimumVersion=3.0
-description=this plugin examines height properties on a DSM
+description=This plugin examines height properties on a DSM
 version=0.1
-author=oskar bäcklin Gu
+author=Oskar Bäcklin University of Gothenburg
 email=oskar.backlin@gu.se
 
-about=this plugin examines height properties on a DSM
+about=Provide a brief description of the plugin and its purpose.
 
-tracker=https://github.com/gusbacos/UAVPreparer
-repository=http://https://github.com/gusbacos/UAVPreparer
+tracker=https://github.com/gusbacos/UAVPreparer/Issues
+repository=https://github.com/gusbacos/UAVPreparer
 # End of mandatory metadata
 
 # Recommended items:
 
-hasProcessingProvider=no
+hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
 # changelog=
 
@@ -26,10 +26,10 @@ hasProcessingProvider=no
 tags=python
 
 homepage=https://github.com/gusbacos/UAVPreparer
-category=Plugins
+category=Analysis
 icon=icon.png
 # experimental flag
-experimental=False
+experimental=True
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
